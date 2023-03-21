@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(209, 200, 176) !important;
+}
+
+.rounded{
+    height: 500px;
+    width: auto;
+    transition: transform 0.5s;
+}
+
+.rounded:hover{
+    /* background: #B19CD9; */
+    transform: translateY(-10px);
+    /* color: #000; */
+}
+
+.recipe{
+    padding: 5px;
+}
+
+.recipe2{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.instructions, .ingredients{
+    text-align: left;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.instructions ol, .ingredients ul{
+    text-align: justify;
+}
+
+.info{
+    text-align: center;
+    padding: 25px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+#header, .container{
+    margin-bottom: 30px;
+}
+
+#header-main{
+    margin: 30px;
+}
+
+.navibar{
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navibar ul li.mylist{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 50px;
+    font-size: xx-large;
+    font-weight: 700;
+    width: 200px;
+    border: solid 0.5px;
+    border-radius: 10px;
+}
+
+.navibar ul li.mylist:hover{
+    border: solid 1px;
+    border-radius: 20px;
+    transition: 1.0s;
+}

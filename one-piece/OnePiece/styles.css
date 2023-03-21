@@ -1,0 +1,276 @@
+body {
+    box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin-right: 115px;
+}
+
+.header-link{
+    transition: transform 0.5s;
+}
+
+.header-link:hover{
+    transform: translateX(-10px);
+}
+
+a{
+    text-decoration: none;
+}
+
+.hero, .info, .quote, .action{
+    flex: 1;
+}
+
+.header, .hero, .footer{
+    background-color: #1f2937;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-secondary, a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo{
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo img{
+    height: 150px;
+    transition: 250ms;
+}
+
+.logo img:hover{
+    transform: translateY(-10px);
+}
+
+button, .action{
+    background-color: #3882f6;
+}
+
+button{
+    padding: 14px 50px;
+    width: fit-content;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 0.5s;
+}
+
+.info-header{
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.luffy-quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin: 0 15px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+.hero1, .hero2{
+    flex: 1;
+    margin: 0 5%;
+}
+
+.hero1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    position: relative;
+}
+
+.image>img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.figcaption{
+    font-size: 15px;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    color: #f9faf8;
+    text-shadow: 0px 0px 5px #000;
+}
+
+.info{
+    text-align: center;
+}
+
+.pirates{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pirate{
+    padding: 20px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.layer{
+    width: 100%;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.5s;
+    color: #f9faf8;
+}
+
+.pirate img{
+    width: max-content;
+    height: 437.91px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.pirate:hover img{
+    transform: scale(1.1);
+    opacity: 0.4;
+}
+
+.layer h2{
+    font-size: 32px;
+}
+
+.layer h3{
+    font-size: 25px;
+}
+
+.pirate:hover .layer{
+    height: 100%;
+    background: linear-gradient(rgb(0,0,0,0.6), violet);
+}
+
+.luffy{
+    margin-top: 15px;
+    font-size: 25px;
+    align-self: flex-end;
+}
+
+.action{
+    color: #141414;
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    margin: 30px 15%;
+    border-radius: 8px;
+}
+
+.footer{
+    text-align: center;
+    color: #f9faf8;
+    padding: 20px 0;
+}
+
+.signup-btn2>button, .signup-btn>button{
+    color: #f9faf8;
+    cursor: pointer;
+}
+
+.signup-btn2>button{
+    border: solid 1px #f9faf8;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.action-text-main{
+    color: #f9faf8;
+}
+
+.source-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.source{
+    border: solid 1px #3882f6;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.source a{
+    color: black;
+    text-decoration: none;
+}
