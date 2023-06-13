@@ -39,13 +39,13 @@ const btn3 = document.querySelector('#btn3');
 // btn2.addEventListener('click', alertFunction)
 // btn3.addEventListener('click', alertFunction)
 
-// btn2.addEventListener('click', function (e) {
-//     console.log(e);
-//   });
+btn2.addEventListener('click', function (e) {
+    console.log(e);
+  });
 
-// btn2.addEventListener('click', function (e) {
-//     console.log(e.target);
-//   });
+btn2.addEventListener('click', function (e) {
+    console.log(e.target);
+  });
 
 // btn2.addEventListener('click', function (e) {
 //   e.target.style.background = 'blue';
